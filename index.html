@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <link rel="stylesheet" href="estilos.css">
+ <h1>Recomendador de peliculas.Garcia-Adrian-Gael-Joshua</h1>
+ <h2>!! Bienvenidos al cine !!</h2>
+</head>
+<body>
+ <p>Deseo hacer de su visita ,una experiencia agradable y placentera.</p>
+ <p>Este es un recomendador de peliulas aleatorias conforme a edad y genero que desee ver.</p>
+ <p>Para ello ingresa tu edad y selecciona el genero que mas te guste:</p>
+
+ <input type="number" id="edad">
+
+ <p>Elige un género :</p>
+ <select id="genero">
+  <option>Animación</option>
+  <option>Acción</option>
+  <option>Ciencia ficción</option>
+  <option>Comedia</option>
+  <option>Drama</option>
+  <option>Romance</option>
+  </select>
+
+   <button onclick="recomendar_pelis()"
+    >Mostrar recomendacion</button>
+
+    <p id="resultado"></p>
+
+ <script src="peliculas.js"></script>
+ <script src="jason.js"></script>
+</body>
+</html>
